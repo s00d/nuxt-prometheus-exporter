@@ -17,7 +17,6 @@ After=network.target
 [Service]
 User=nuxt-exp
 Group=nuxt-exp
-Environment="SSL_VERIFY=false"
 
 ExecStart=/usr/local/bin/nuxt-prometheus-exporter
 ```
