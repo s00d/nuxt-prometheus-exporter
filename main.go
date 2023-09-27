@@ -23,7 +23,7 @@ type RequestBody struct {
 var (
 	requestsTotal = prometheus.NewCounterVec(
 		prometheus.CounterOpts{
-			Name: "nodejs_requests_total",
+			Name: "nuxt_requests_total",
 			Help: "Total number of requests processed by Node.js",
 		},
 		[]string{"route", "code", "method", "date", "duration"},
